@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.body {
+    font-family: 'Segoe UI', sans-serif;
+    background: white;
+}
+
+/* BARRA SUPERIOR */
+.barra-superior {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.barra-superior i {
+    margin-right: 8px;
+}
+
+/* NAVEGACIÓN */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 30px;
+    width: 100%;
+    min-height: 90px;
+    gap: 25px;
+}
+
+/* LOGO */
+.logo {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.N {
+    height: 90px;
+}
+
+.N:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* MENÚ */
+.lista ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 22px;
+}
+
+.lista a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.lista a:hover {
+    color: #7708bc;
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+/* ACCIONES */
+.acciones {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+/* BUSCADOR */
+.buscador {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 35px;
+}
+
+.buscador input {
+    width: 150px;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    font-size: 13px;
+}
+
+.buscador button {
+    border: none;
+    background: white;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.buscador button i {
+    font-size: 15px;
+}
+
+/* ICONOS DE USUARIO Y CARRITO */
+.icono {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+.icono img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.icono:hover img {
+    transform: scale(1.15);
+}
+
+
+
+/* CONTADOR DEL CARRITO */
+.contador {
+    position: absolute;
+    top: -5px;
+    right: -7px;
+    background: red;
+    color: white;
+    font-size: 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTENIDO */
+.contenido {
+
+    background: white;
+    color: black;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.contenedor {
+    background-color: #f1ecec;
+}
+
+.boton_central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+
+}
+
+
+a.boton {
+    border-radius: 5px;
+    background: rgba(8, 0, 0, 0.681);
+    padding: 8px 12px;
+    cursor: pointer;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+a.boton:hover {
+    background: rgba(33, 0, 53, 0.668);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: #7708bc;
+}
+
+.C{
+    height: 550px;
+    margin-top: 20px;
+}
+
+.C:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
